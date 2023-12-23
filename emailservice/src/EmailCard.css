@@ -1,0 +1,40 @@
+/* In your component's CSS or in a separate stylesheet */
+.avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; /* Adjust width and height as needed */
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 2%;
+    background-color: #007bff; /* Background color for the avatar */
+    border-radius: 50%; /* Make it a circle */
+    color: #ffffff; /* Color of the icon */
+  }
+  
+  .avatar-icon {
+    font-size: 24px; /* Adjust the icon size as needed */
+  }
+  
+.card{  
+    width: 80rem;
+    background-color: rgb(228, 228, 219);
+    display: flex;
+    flex-direction: row; 
+    margin: 10px; 
+    border-radius: 15px;    
+}
+
+.card-data p{
+    display: inline;
+}
+
+span{
+   font-size: 15px;
+   font-style: italic;
+       
+}
+
+.card-data div{
+    margin-bottom: 5px;
+}

@@ -1,0 +1,86 @@
+/* Appropriate styles for your header component */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2; /* Adjust background color as needed */
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-section h6 {
+    margin-right: 10px;
+    font-size: 16px; /* Adjust font size as needed */
+  }
+  
+  .left-section p {
+    margin-right: 10px;
+    cursor: pointer; /* Add cursor pointer for better UX */
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-section span {
+    margin-left: 5px;
+  }
+  
+  /* Styling for the arrow icons */
+  .arrow-icon {
+    font-size: 20px; /* Adjust arrow size as needed */
+    color: #007bff; /* Adjust arrow color as needed */
+  }
+  
+  /* Styling for the "Clear" link */
+  .left-section a {
+    color: #007bff; /* Adjust link color as needed */
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .left-section a:hover {
+    text-decoration: underline; /* Underline link on hover for better visibility */
+  }
+  
+  button{
+    margin: 10px;
+  }
+
+  /* Header.css */
+
+.header {
+  /* Add your existing styles here */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.dark-mode-toggle {
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.dark-mode {
+  background-color: #333;
+  /* color: #fff; */
+}
+
+/* Add more styles as needed */
